@@ -1,0 +1,4 @@
+This script is to crawl infromation about air qualiy index from https://www.86pm25/city/beijing.html with Scrapy module 
+To run this script, make sure you have installed Scrapy in your computer, and type in 'Scrapy crawl aqi' in your terminal under this project'
+s directory
+This script will crawl automatically and generate a .json file in the working directory

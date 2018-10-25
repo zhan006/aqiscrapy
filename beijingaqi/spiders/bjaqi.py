@@ -28,9 +28,9 @@ class beijingaqi(scrapy.Spider):
         from scrapy.mail import MailSender
        
         mailer=MailSender(smtphost="smtp.126.com",
-                          mailfrom="wzdx008@126.com",
-                          smtpuser="wzdx008@126.com",
-                          smtppass="wzdx2048",
+                          mailfrom="your email adress",
+                          smtpuser="your email address",
+                          smtppass="your smtppassword",
                           smtpport=25)
             #ile=open(r'/home/pi/beijingaqi/aqi.json','r')
         mailer.send(to=['wzdx1024@163.com'],subject='scrapeddata',body=str(data))
